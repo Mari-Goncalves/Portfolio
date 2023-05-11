@@ -1,0 +1,25 @@
+/* #banner > #portifolio-side-menu-header > #content-list-menu  */
+ #banner > #portfolio-side-menu-header{
+    height: 70px;
+    background-color: #43506C;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+#portfolio-side-menu-header > #content-list-menu{
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-around;
+}
+
+ul > .content-menu-item{
+    font-weight: bold;
+    color: #F5F5F5;
+}
+
+.content-menu-item > .menu-item-link{
+    text-decoration: none;
+    color: #F5F5F5;
+}
