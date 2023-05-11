@@ -9,26 +9,72 @@
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="css/GlobalStyle.css">
 
+
     <link rel="stylesheet" href="css/banner/Nav.css">
+    <link rel="stylesheet" href="css/banner/MainContent.css">
 </head>
 <body>
 
     <section id="banner">
-        <nav id="portfolio-side-menu-header">
-            <ul id="content-list-menu">
-                <li class="content-menu-item">
-                    <a class="menu-item-link" href="">About me</a>
-                </li>
-                <li class="content-menu-item">
-                    <a class="menu-item-link" href="">Project Gallery</a>
-                </li>
-                <li class="content-menu-item">
-                    <a class="menu-item-link" href="">Contact</a>
-                </li>
-            </ul>
-        </nav>
+
+        <header>
+            <nav id="portfolio-side-menu-header">
+                <ul id="content-list-menu">
+                    <li class="content-menu-item">
+                        <a class="menu-item-link link" href="">About me</a>
+                    </li>
+                    <li class="content-menu-item">
+                        <a class="menu-item-link link" href="">Project Gallery</a>
+                    </li>
+                    <li class="content-menu-item">
+                        <a class="menu-item-link link" href="">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <article id="banner-main-content">
+            <aside id="container-social-media-icons">
+                <icon class="content-icon" id="instagram">
+                    <a class="link-icon" href="">
+                        <img class="icon-image" src="img/icons/vector-instagram.svg" alt="Instagram icon">
+                    </a>
+                </icon>
+
+                <icon class="content-icon" id="linkedin">
+                    <a class="link-icon" href="">
+                        <img class="icon-image" src="img/icons/vector-linkedin.svg" alt="linkedin icon">
+                    </a>
+                </icon>
+                
+                <icon class="content-icon" id="github">
+                    <a class="link-icon" href="">
+                        <img class="icon-image" src="img/icons/vector-github.svg" alt="Github icon">
+                    </a>
+                </icon>
+            </aside>
+            
+            <article id="banner-content-text">
+                <h1 id="banner-title" class="title">Hi,I am Mariana Gonçalves </h1>
+
+                <h2 class="banner-subtitle">I'm front end web developement student.</h2>
+                <h2 class="banner-subtitle">HTML and CSS technologies</h2>
+            </article>
+
+            <article id="banner-image">
+                <picture> 
+                    <source srcset="img/profile-img-banner.svg" type="image/svg+xml"> 
+                    <img id="profile-image" src="img/profile-img-banner.svg" alt="Profile image banner">
+                </picture>
+            </article>
+        </article>
+
+
     </section>
+
+
 </body>
 </html>

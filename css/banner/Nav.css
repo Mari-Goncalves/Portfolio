@@ -1,5 +1,4 @@
-/* #banner > #portifolio-side-menu-header > #content-list-menu  */
- #banner > #portfolio-side-menu-header{
+ #banner > header > #portfolio-side-menu-header{
     height: 70px;
     background-color: #43506C;
     display: flex;
@@ -20,6 +19,5 @@ ul > .content-menu-item{
 }
 
 .content-menu-item > .menu-item-link{
-    text-decoration: none;
     color: #F5F5F5;
 }
