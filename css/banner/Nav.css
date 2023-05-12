@@ -1,6 +1,6 @@
- #banner > header > #portfolio-side-menu-header{
+ #banner > #banner-header > #portfolio-side-menu-header{
     height: 70px;
-    background-color: #43506C;
+
     display: flex;
     align-items: center;
     justify-content: end;
@@ -27,4 +27,8 @@ ul > .content-menu-item{
     color: #dedbdb;
     border-bottom: 2px solid #F5F5F5;
     padding-bottom: 5px;
+}
+
+#banner-header{
+    background-color: #43506C;
 }

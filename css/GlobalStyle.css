@@ -15,3 +15,8 @@ article > .title{
 .link, .link:hover, .link:focus, .link:active { 
     text-decoration: none; color: inherit; 
 }
+
+.width-max-limit{
+    max-width: 1366px;
+    margin: 0 auto;
+}
