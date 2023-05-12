@@ -11,6 +11,7 @@
     list-style: none;
     width: 40%;
     justify-content: space-around;
+    padding: 15px;
 }
 
 ul > .content-menu-item{
@@ -19,4 +20,11 @@ ul > .content-menu-item{
 
 .content-menu-item > .menu-item-link{
     color: #F5F5F5;
+    font-weight: 500;
+}
+
+.menu-item-link:hover{
+    color: #dedbdb;
+    border-bottom: 2px solid #F5F5F5;
+    padding-bottom: 5px;
 }
