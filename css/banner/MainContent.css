@@ -1,7 +1,11 @@
+/* All banner container */
 #banner-main-content{
     display: flex;
     flex-direction: row;
     background-color: #283247;
+    align-items: center;
+    justify-content: space-around;
+    height: 500px;
 }
 
 #profile-image{
@@ -10,6 +14,7 @@
     border-radius: 100%;
 }
 
+/* All container text - banner content */
 #banner-content-text{
     color: #FFFFFF;
 }
@@ -18,7 +23,18 @@
     font-weight: normal;
 }
 
-.icon-image{
-    width: 50px;
-    height: 50px;
+
+/* Social media container */
+#container-social-media-icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 40%;
 }
+
+.icon-image{
+    width: 30px;
+    height: 30px;
+}
+
+
