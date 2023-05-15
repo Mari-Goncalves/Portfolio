@@ -1,0 +1,37 @@
+#project-gallery{
+    background: rgb(221, 225, 233);
+}
+
+#project-gallery-title{
+    background: rgb(202, 195, 195);
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+
+#cards-container{
+    
+}
+
+.project-card{
+    background: #353F52;
+    color: #ffffff;
+    padding: 25px;
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.card-text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+.adding-information{
+    display: flex;
+    justify-content: space-between;
+}
+
+.adding-information-links-container{
+    display: flex;
+}
