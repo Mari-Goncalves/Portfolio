@@ -1,0 +1,14 @@
+Title:
+Nice to meet you!
+
+P 01:
+I'm from Porto Alegre, Brazil.
+
+P 02:
+I've always seen the internet as a world of possibilities, and knowing that I can contribute through my work to the creation of new platforms makes me very excited.
+
+P 03:
+My journey into the world of programming began in mid-2022 when I joined a web development course, since then I have participated in team projects where I have developed my technical and soft skills.
+
+P 04:
+Currently, I am studying HTML5, CSS3 and Javscript technologies.
