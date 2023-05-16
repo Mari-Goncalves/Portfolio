@@ -1,0 +1,51 @@
+
+.project-card{
+    align-items: center;
+    background: #283247;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px;
+    width: 25%;
+}
+
+.card-image{
+    width: 100%;
+}
+
+
+.card-text-container{
+    align-items: center;    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card-title{
+    font-size: 1.1em;
+}
+
+.card-description, .project-publish-date{
+    font-size: 0.8em;
+}
+
+
+.adding-information{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.adding-information-links-container{
+    display: flex;
+    gap: 15px;
+}
+
+.adding-information-icon-image{
+    width: 20px;
+}
+
+.card-text-container, .adding-information{
+    width: 90%;
+}
