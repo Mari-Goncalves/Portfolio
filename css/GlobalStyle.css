@@ -9,7 +9,6 @@
 
 article > .title{
     font-size: 2em;
-    /* font-weight: bold; */
 }
 
 .link, .link:hover, .link:focus, .link:active { 
