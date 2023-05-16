@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="css/Banner/ProfileImage.css">
     <link rel="stylesheet" href="css/Banner/SocialMediaIcons.css">
     <link rel="stylesheet" href="css/Banner/TextContent.css">
-    
+
     <link rel="stylesheet" href="css/AboutMe/AboutMeMainSection.css">
     <link rel="stylesheet" href="css/ProjectGallery/ProjectCard.css">
     <link rel="stylesheet" href="css/ProjectGallery/projectGallerySection.css">
@@ -31,13 +31,13 @@
             <nav class="width-max-limit" id="portfolio-side-menu-header">
                 <ul id="content-list-menu">
                     <li class="content-menu-item">
-                        <a class="menu-item-link link" href="#">About me</a>
+                        <a class="menu-item-link link" href="#about-me">About me</a>
                     </li>
                     <li class="content-menu-item">
-                        <a class="menu-item-link link" href="#">Project Gallery</a>
+                        <a class="menu-item-link link" href="#project-gallery">Project gallery</a>
                     </li>
                     <li class="content-menu-item">
-                        <a class="menu-item-link link" href="#">Contact</a>
+                        <a class="menu-item-link link" href="#footer">Contact</a>
                     </li>
                 </ul>
             </nav>
@@ -114,7 +114,7 @@
     <section id="project-gallery">
         <article id="main-content-project-gallery" class="width-max-limit">
             <header id="project-gallery-title" class="title">
-                <h1>Project Gallery</h1>
+                <h1>Project gallery</h1>
             </header>
 
             <article id="cards-container">
@@ -311,6 +311,64 @@
                 </div>
             </article>
         </article>
+    </section>
+
+    <section id="footer">
+        <section id="main-content-footer" class="width-max-limit">
+
+            <article id="leave-massage-content">
+                <h4 id="contact-title">Contact me:</h4>
+
+                <label for="email-contact">Your email:</label>
+                <input id="email-contact" type="email" placeholder="Email">
+
+                <label for="contact-message">Write you message:</label>
+                <textarea name="message-contact" id="contact-message" cols="30" rows="10" placeholder="Message"></textarea>
+
+                <button id="button-send-massage">Send</button>
+            </article>
+
+            <article id="submenu">
+                <nav id="portifolio-submenu-footer">
+                    <ul id="content-list-submenu">
+                        <ul class="content-submenu-item">
+                            <a class="submenu-item-link link" href="#banner">Home</a>
+                        </ul>
+                        <ul class="content-submenu-item">
+                            <a class="submenu-item-link link" href="#about-me">About me</a>
+                        </ul>
+                        <ul class="content-submenu-item">
+                            <a class="submenu-item-link link" href="#project-gallery">Project gallery</a>
+                        </ul>
+                    </ul>
+                </nav>
+
+                <article id="container-submenu-social-media-icons">
+                    <icon class="content-icon-submenu" id="instagram">
+                        <a class="link-icon-submenu" href="#">
+                            <img class="icon-image" src="Images/Icons/vector-instagram.svg" alt="Instagram icon">
+                        </a>
+                    </icon>
+    
+                    <icon class="content-icon-submenu" id="linkedin">
+                        <a class="link-icon-submenu" target="_blank" href="https://www.linkedin.com/in/marianasouzagon%C3%A7alves/">
+                            <img class="icon-image" src="Images/Icons/vector-linkedin.svg" alt="linkedin icon">
+                        </a>
+                    </icon>
+                    
+                    <icon class="content-icon-submenu" id="github">
+                        <a class="link-icon-submenu" target="_blank" href="https://github.com/Mari-Goncalves">
+                            <img class="icon-image" src="Images/Icons/vector-github.svg" alt="Github icon">
+                        </a>
+                    </icon>
+
+                </article>
+            </article>
+
+            <div id="signature">
+                <p>Mariana Gonçalves</p>
+            </div>
+        </section>
     </section>
 
 </body>
