@@ -1,0 +1,25 @@
+#container-social-media-icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 40%;
+    width: 10%;
+    align-items: center;
+}
+
+.content-icon{
+    height: 40px;
+}
+
+.icon-image{
+    width: 30px;
+    height: 30px;
+}
+.icon-image:hover{
+    width: 33px;
+    height: 33px;
+}
+
+#instagram{
+    margin-right: 5px;
+}
