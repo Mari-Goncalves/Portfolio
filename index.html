@@ -11,24 +11,27 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
     
+    <link rel="stylesheet" href="css/Nav/Nav.css">
+    <link rel="stylesheet" href="css/SocialMediaIcons/SocialMediaIcons.css">
+
     <link rel="stylesheet" href="css/GlobalStyle.css">
     <link rel="stylesheet" href="css/Banner/BannerSection.css">
     <link rel="stylesheet" href="css/Banner/MainContent.css">
-    <link rel="stylesheet" href="css/Banner/Nav.css">
     <link rel="stylesheet" href="css/Banner/ProfileImage.css">
-    <link rel="stylesheet" href="css/Banner/SocialMediaIcons.css">
     <link rel="stylesheet" href="css/Banner/TextContent.css">
 
     <link rel="stylesheet" href="css/AboutMe/AboutMeMainSection.css">
     <link rel="stylesheet" href="css/ProjectGallery/ProjectCard.css">
     <link rel="stylesheet" href="css/ProjectGallery/projectGallerySection.css">
+
+    <link rel="stylesheet" href="css/Footer/FooterMainSection.css">
 </head>
 <body>
 
     <section id="banner">
 
         <header id="banner-header">
-            <nav class="width-max-limit" id="portfolio-side-menu-header">
+            <nav class="width-max-limit navbar" id="portfolio-side-menu-header">
                 <ul id="content-list-menu">
                     <li class="content-menu-item">
                         <a class="menu-item-link link" href="#about-me">About me</a>
@@ -44,7 +47,7 @@
         </header>
 
         <article id="banner-main-content" class="width-max-limit">
-            <aside id="container-social-media-icons">
+            <aside id="banner-container-social-media-icons" class="social-media-icons">
 
                 <icon class="content-icon" id="instagram">
                     <a class="link-icon" href="#">
@@ -313,63 +316,72 @@
         </article>
     </section>
 
-    <section id="footer">
+    <footer id="footer">
         <section id="main-content-footer" class="width-max-limit">
 
-            <article id="leave-massage-content">
-                <h4 id="contact-title">Contact me:</h4>
-
-                <label for="email-contact">Your email:</label>
-                <input id="email-contact" type="email" placeholder="Email">
-
-                <label for="contact-message">Write you message:</label>
-                <textarea name="message-contact" id="contact-message" cols="30" rows="10" placeholder="Message"></textarea>
-
-                <button id="button-send-massage">Send</button>
-            </article>
-
-            <article id="submenu">
-                <nav id="portifolio-submenu-footer">
-                    <ul id="content-list-submenu">
-                        <ul class="content-submenu-item">
-                            <a class="submenu-item-link link" href="#banner">Home</a>
-                        </ul>
-                        <ul class="content-submenu-item">
-                            <a class="submenu-item-link link" href="#about-me">About me</a>
-                        </ul>
-                        <ul class="content-submenu-item">
-                            <a class="submenu-item-link link" href="#project-gallery">Project gallery</a>
-                        </ul>
-                    </ul>
-                </nav>
-
-                <article id="container-submenu-social-media-icons">
-                    <icon class="content-icon-submenu" id="instagram">
-                        <a class="link-icon-submenu" href="#">
-                            <img class="icon-image" src="Images/Icons/vector-instagram.svg" alt="Instagram icon">
-                        </a>
-                    </icon>
+            <div id="container-message-submenu">
+                <aside id="leave-massage-content">
+                    <h4 id="contact-title">Contact me:</h4>
     
-                    <icon class="content-icon-submenu" id="linkedin">
-                        <a class="link-icon-submenu" target="_blank" href="https://www.linkedin.com/in/marianasouzagon%C3%A7alves/">
-                            <img class="icon-image" src="Images/Icons/vector-linkedin.svg" alt="linkedin icon">
-                        </a>
-                    </icon>
-                    
-                    <icon class="content-icon-submenu" id="github">
-                        <a class="link-icon-submenu" target="_blank" href="https://github.com/Mari-Goncalves">
-                            <img class="icon-image" src="Images/Icons/vector-github.svg" alt="Github icon">
-                        </a>
-                    </icon>
+                    <div id="contact-email" class="send-massage">
+                        <label for="write-email-contact">Your email:</label>
+                        <input class="text-field" id="write-email-contact" type="email" placeholder="Email">
+                    </div>
+
+                    <div id="contact-message" class="send-massage">
+                        <label for="write-contact-message">Write you message:</label>
+                        <textarea class="text-field" name="message-contact" id="write-contact-message" cols="30" rows="10" placeholder="Message"></textarea>
+                    </div>
+    
+                    <button type="submit" id="button-send-massage">Send</button>
+                </aside>
+    
+                <article id="submenu">
+                    <nav id="portifolio-submenu-footer" class="navbar">
+                        <ul id="content-list-menu">
+                            <li class="content-menu-item">
+                                <a class="menu-item-link link" href="#banner">Home</a>
+                            </li>
+                            <li class="content-menu-item">
+                                <a class="menu-item-link link" href="#about-me">About me</a>
+                            </li>
+                            <li class="content-menu-item">
+                                <a class="menu-item-link link" href="#project-gallery">Project gallery</a>
+                            </li>
+                        </ul>
+                    </nav>
+    
+                    <aside id="footer-container-social-media-icons" class="social-media-icons">
+
+                        <icon class="content-icon" id="instagram">
+                            <a class="link-icon" href="#">
+                                <img class="icon-image" src="Images/Icons/vector-instagram.svg" alt="Instagram icon">
+                            </a>
+                        </icon>
+        
+                        <icon class="content-icon" id="linkedin">
+                            <a class="link-icon" target="_blank" href="https://www.linkedin.com/in/marianasouzagon%C3%A7alves/">
+                                <img class="icon-image" src="Images/Icons/vector-linkedin.svg" alt="linkedin icon">
+                            </a>
+                        </icon>
+                        
+                        <icon class="content-icon" id="github">
+                            <a class="link-icon" target="_blank" href="https://github.com/Mari-Goncalves">
+                                <img class="icon-image" src="Images/Icons/vector-github.svg" alt="Github icon">
+                            </a>
+                        </icon>
+                    </aside>
+    
+                </article>
 
                 </article>
-            </article>
-
-            <div id="signature">
-                <p>Mariana Gonçalves</p>
             </div>
         </section>
-    </section>
+        
+        <div id="signature">
+            <p>Mariana Gonçalves</p>
+        </div>
+    </footer>
 
 </body>
 </html>

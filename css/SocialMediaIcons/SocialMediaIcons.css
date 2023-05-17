@@ -1,10 +1,21 @@
-#container-social-media-icons{
+.social-media-icons{
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+}
+
+#banner-container-social-media-icons{
+    flex-direction: column;
     height: 40%;
     width: 10%;
-    align-items: center;
+}
+
+#footer-container-social-media-icons > .content-icon{
+    width: 30%;
+}
+
+#footer-container-social-media-icons{
+    margin-top: 40px;
 }
 
 .content-icon{

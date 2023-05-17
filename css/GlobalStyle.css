@@ -19,3 +19,24 @@ article > .title{
     max-width: 1366px;
     margin: 0 auto;
 }
+
+input:focus, textarea:focus{
+    outline: none;
+}
+
+input{
+    border: none;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #ffffff;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #ffffff;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: #ffffff;
+  }

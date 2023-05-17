@@ -1,17 +1,28 @@
- #banner > #banner-header > #portfolio-side-menu-header{
-    height: 70px;
-
+.navbar{
     display: flex;
     align-items: center;
+}
+
+ #banner > #banner-header > #portfolio-side-menu-header{
+    height: 70px;
     justify-content: end;
+}
+
+#portifolio-submenu-footer{
+    flex-direction: column;
+    font-size: 1.2em;
+    line-height: 80px;
 }
 
 #portfolio-side-menu-header > #content-list-menu{
     display: flex;
-    list-style: none;
     width: 40%;
     justify-content: space-around;
     padding: 15px;
+}
+
+#content-list-menu{
+    list-style: none;
 }
 
 ul > .content-menu-item{
@@ -23,7 +34,7 @@ ul > .content-menu-item{
     font-weight: 500;
 }
 
-.menu-item-link:hover{
+.content-menu-item:hover > .menu-item-link{
     color: #dedbdb;
     border-bottom: 2px solid #F5F5F5;
     padding-bottom: 5px;
