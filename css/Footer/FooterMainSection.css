@@ -29,24 +29,17 @@
     flex-direction: column;
 }
 
-#write-email-contact{
-    width: 70%;
-    padding: 10px;
-    text-align: center;
-}
-
-
 #write-contact-message{
-    width: 90%;
-    height: 140px;
-    line-height: 130px;
-    text-align: center;
+    padding-top: 35px;
     resize: none;
-}
+} 
 
 .text-field{
-    background: #747E93;
+    width: 80%;
+    height: 85px;
+    background: #959daf;
     color: #ffffff;
+    padding: 0 15px 0;
 }
 
 #button-send-message{
