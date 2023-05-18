@@ -11,36 +11,43 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
     
+    <link rel="stylesheet" href="css/Nav/Nav.css">
+    <link rel="stylesheet" href="css/SocialMediaIcons/SocialMediaIcons.css">
+
     <link rel="stylesheet" href="css/GlobalStyle.css">
-    <link rel="stylesheet" href="css/Banner/Nav.css">
-    <link rel="stylesheet" href="css/Banner/MainContent.css">
     <link rel="stylesheet" href="css/Banner/BannerSection.css">
+    <link rel="stylesheet" href="css/Banner/MainContent.css">
+    <link rel="stylesheet" href="css/Banner/ProfileImage.css">
+    <link rel="stylesheet" href="css/Banner/TextContent.css">
+
     <link rel="stylesheet" href="css/AboutMe/AboutMeMainSection.css">
     <link rel="stylesheet" href="css/ProjectGallery/ProjectCard.css">
     <link rel="stylesheet" href="css/ProjectGallery/projectGallerySection.css">
+
+    <link rel="stylesheet" href="css/Footer/FooterMainSection.css">
 </head>
 <body>
 
     <section id="banner">
 
         <header id="banner-header">
-            <nav class="width-max-limit" id="portfolio-side-menu-header">
+            <nav class="width-max-limit navbar" id="portfolio-side-menu-header">
                 <ul id="content-list-menu">
                     <li class="content-menu-item">
-                        <a class="menu-item-link link" href="#">About me</a>
+                        <a class="menu-item-link link" href="#about-me">About me</a>
                     </li>
                     <li class="content-menu-item">
-                        <a class="menu-item-link link" href="#">Project Gallery</a>
+                        <a class="menu-item-link link" href="#project-gallery">Project gallery</a>
                     </li>
                     <li class="content-menu-item">
-                        <a class="menu-item-link link" href="#">Contact</a>
+                        <a class="menu-item-link link" href="#footer">Contact</a>
                     </li>
                 </ul>
             </nav>
         </header>
 
         <article id="banner-main-content" class="width-max-limit">
-            <aside id="container-social-media-icons">
+            <aside id="banner-container-social-media-icons" class="social-media-icons">
 
                 <icon class="content-icon" id="instagram">
                     <a class="link-icon" href="#">
@@ -99,7 +106,7 @@
 
                 <p class="about-me-text">I've always seen the <strong>internet as a world of possibilities</strong>, and knowing that I can contribute through my work to the <strong>creation of new platforms makes me very excited</strong>.</p>
 
-                <p class="about-me-text">My journey into the world of programming began in mid-2022 when I joined a web development course, since then I have participated in team projects where <strong>I have developed my technical and soft skills</strong>.</p>
+                <p class="about-me-text">My journey into the world of programming began in July 2022 when I joined a web development course, since then I have participated in team projects where <strong>I have developed my technical and soft skills</strong>.</p>
 
                 <p class="about-me-text">Currently, I am studying <strong> HTML5, CSS3 and Javscript technologies</strong>.</p>
             </article>
@@ -110,7 +117,7 @@
     <section id="project-gallery">
         <article id="main-content-project-gallery" class="width-max-limit">
             <header id="project-gallery-title" class="title">
-                <h1>Project Gallery</h1>
+                <h1>Project gallery</h1>
             </header>
 
             <article id="cards-container">
@@ -122,7 +129,7 @@
 
                     <article class="card-text-container">
                         <h4 class="card-title">Background color changer</h4>
-                        <p class="card-description">Input type color, where the color chosen by the user will be the background color of the screen.</p>
+                        <p class="card-description">The user can choose the background color of the screen.</p>
                     </article>
 
                     <article class="adding-information">
@@ -308,6 +315,73 @@
             </article>
         </article>
     </section>
+
+    <footer id="footer">
+        <section id="main-content-footer" class="width-max-limit">
+
+            <div id="container-message-submenu">
+                <aside id="leave-message-content">
+                    <h4 id="contact-title">Contact me:</h4>
+    
+                    <div id="contact-email" class="send-message">
+                        <label for="write-email-contact">Your email:</label>
+                        <input class="text-field" id="write-email-contact" type="email" placeholder="Email">
+                    </div>
+
+                    <div id="contact-message" class="send-message">
+                        <label for="write-contact-message">Write you message:</label>
+                        <textarea class="text-field" name="message-contact" id="write-contact-message" cols="30" rows="10" placeholder="Message"></textarea>
+                    </div>
+    
+                    <button type="submit" id="button-send-message">Send</button>
+                </aside>
+    
+                <article id="submenu">
+                    <nav id="portifolio-submenu-footer" class="navbar">
+                        <ul id="content-list-menu">
+                            <li class="content-menu-item">
+                                <a class="menu-item-link link" href="#banner">Home</a>
+                            </li>
+                            <li class="content-menu-item">
+                                <a class="menu-item-link link" href="#about-me">About me</a>
+                            </li>
+                            <li class="content-menu-item">
+                                <a class="menu-item-link link" href="#project-gallery">Project gallery</a>
+                            </li>
+                        </ul>
+                    </nav>
+    
+                    <aside id="footer-container-social-media-icons" class="social-media-icons">
+
+                        <icon class="content-icon" id="instagram">
+                            <a class="link-icon" href="#">
+                                <img class="icon-image" src="Images/Icons/vector-instagram.svg" alt="Instagram icon">
+                            </a>
+                        </icon>
+        
+                        <icon class="content-icon" id="linkedin">
+                            <a class="link-icon" target="_blank" href="https://www.linkedin.com/in/marianasouzagon%C3%A7alves/">
+                                <img class="icon-image" src="Images/Icons/vector-linkedin.svg" alt="linkedin icon">
+                            </a>
+                        </icon>
+                        
+                        <icon class="content-icon" id="github">
+                            <a class="link-icon" target="_blank" href="https://github.com/Mari-Goncalves">
+                                <img class="icon-image" src="Images/Icons/vector-github.svg" alt="Github icon">
+                            </a>
+                        </icon>
+                    </aside>
+    
+                </article>
+
+                </article>
+            </div>
+        </section>
+        
+        <div id="signature">
+            <p>Mariana Gonçalves</p>
+        </div>
+    </footer>
 
 </body>
 </html>

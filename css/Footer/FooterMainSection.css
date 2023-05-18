@@ -1,0 +1,71 @@
+#footer{
+    background-color: #43506C;
+}
+
+#main-content-footer{
+    color: #ffffff;
+    padding: 80px;
+}
+
+#container-message-submenu{
+    display: flex;
+    justify-content: space-between;
+}
+
+#container-message-submenu > #leave-message-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 40%;
+    gap: 30px;
+}
+#container-message-submenu > #leave-message-content > #contact-title{
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+#container-message-submenu > #leave-message-content > .send-message{
+    display: flex;
+    flex-direction: column;
+}
+
+#write-email-contact{
+    width: 70%;
+    padding: 10px;
+    text-align: center;
+}
+
+
+#write-contact-message{
+    width: 90%;
+    height: 140px;
+    line-height: 130px;
+    text-align: center;
+    resize: none;
+}
+
+.text-field{
+    background: #747E93;
+    color: #ffffff;
+}
+
+#button-send-message{
+    width: 22%;
+    padding: 7px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background: #9EAAC2;
+    color: #ffffff;
+}
+#button-send-message:hover{
+    background: #abb9d4;
+}
+
+#signature{
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #ffffff;
+    color: #ffffff;
+    font-size: 1.1em;
+}
