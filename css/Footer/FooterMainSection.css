@@ -12,19 +12,19 @@
     justify-content: space-between;
 }
 
-#container-message-submenu > #leave-massage-content{
+#container-message-submenu > #leave-message-content{
     display: flex;
     flex-direction: column;
     justify-content: start;
     width: 40%;
     gap: 30px;
 }
-#container-message-submenu > #leave-massage-content > #contact-title{
+#container-message-submenu > #leave-message-content > #contact-title{
     font-weight: bold;
     font-size: 1.1em;
 }
 
-#container-message-submenu > #leave-massage-content > .send-massage{
+#container-message-submenu > #leave-message-content > .send-message{
     display: flex;
     flex-direction: column;
 }
@@ -49,7 +49,7 @@
     color: #ffffff;
 }
 
-#container-message-submenu > #leave-massage-content > #button-send-massage{
+#button-send-message{
     width: 22%;
     padding: 7px;
     border-radius: 5px;
@@ -58,11 +58,9 @@
     background: #9EAAC2;
     color: #ffffff;
 }
-
-button > #button-send-massage:hover{
-    background: red;
+#button-send-message:hover{
+    background: #abb9d4;
 }
-
 
 #signature{
     padding: 20px;
