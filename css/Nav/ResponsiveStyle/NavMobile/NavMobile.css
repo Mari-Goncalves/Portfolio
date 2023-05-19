@@ -1,0 +1,15 @@
+#portfolio-mobile-side-menu-header{
+    display: none;
+}
+
+@media screen and (max-width: 320px){
+    #portfolio-mobile-side-menu-header{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 320px){
+    #portfolio-side-menu-header{
+        display: none;
+    }
+}
