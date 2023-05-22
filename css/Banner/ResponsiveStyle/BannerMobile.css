@@ -1,0 +1,63 @@
+@media screen and  (max-width:320px){
+
+    #banner{
+        padding: 25px;
+    }
+
+    #banner-main-content{
+        /* diminuição da altura */
+        height: 300px;
+
+        flex-direction: column-reverse;
+
+        /* alinhamneto da foto e do texto na tela */
+        justify-content: center;
+
+        /* espaçamento entre a foto e o texto */
+        gap: 20px;
+    }
+
+    #banner-container-social-media-icons{
+        display: none;
+    }
+
+    #banner-content-text{
+        width: 100%;
+
+        /* deixei a altura suficiente para o tamanho do conteúdo */
+        height: fit-content;
+
+        justify-content: normal;
+
+        /* espaço entre o title e o subtitle */
+        gap: 20px;
+
+        /* alinhamento do title e subtitle */
+        align-items: center;
+    }
+
+    #banner-title{
+        font-size: 1em;
+        text-align: center;
+    }
+
+    #container-banner-subtitle{
+        width: 100%;
+        height: 100%;
+        justify-content: normal;
+
+
+    }
+
+    .banner-subtitle{
+        font-size: 0.7em;
+        text-align: center;
+    }
+
+    #profile-image{
+        width: 130px;
+        height: 130px;
+    }
+}
+
+/* troca de tamanho do título, subtítulo e foto de perfil */
