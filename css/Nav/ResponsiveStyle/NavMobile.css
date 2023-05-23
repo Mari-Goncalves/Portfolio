@@ -2,16 +2,17 @@
     display: none;
 }
 
-@media screen and (max-width: 320px){
-    #portfolio-mobile-side-menu-header{
-        display: block;
+@media screen and  (max-width:768px){
+    #portfolio-side-menu-header > #content-list-menu{
+        width: 100%;
     }
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 425px){
+    #portfolio-mobile-side-menu-header{
+        display: block;
+    }
     #portfolio-side-menu-header{
         display: none;
     }
-
-    
 }
