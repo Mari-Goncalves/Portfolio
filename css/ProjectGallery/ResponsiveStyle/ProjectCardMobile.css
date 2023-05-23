@@ -1,0 +1,39 @@
+@media screen and (max-width:768px){
+    .project-card{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:425px){
+    .project-card{
+        width: 100%;
+        gap: 10px;
+    }
+
+    .card-title{
+        font-size: 0.9em;
+        margin-top: 10px;
+    }
+
+    .card-description{
+        font-size: 0.7em;
+    }
+
+    .adding-information{
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
+    .project-publish-date{
+        font-size: 0.6em;
+    }
+
+    .adding-information-links-container{
+        width: 62%;
+        justify-content: space-around;
+    }
+
+    .adding-information-link > .adding-information-icon-image{
+        width: 30px;
+    }
+}

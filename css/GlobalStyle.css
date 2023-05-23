@@ -13,7 +13,7 @@ html{
 
 
 article > .title{
-    font-size: 2em;
+    font-size: 2.4em;
 }
 
 .link, .link:hover, .link:focus, .link:active { 
@@ -44,4 +44,16 @@ input{
   
   ::-ms-input-placeholder { /* Microsoft Edge */
     color: #ffffff;
+  }
+
+  @media screen and (max-width:425px){
+    article > .title{
+        font-size: 1em;
+    }
+  }
+
+  @media screen and (max-width:768px){
+    article > .title{
+        font-size: 1.5em;
+    }
   }
