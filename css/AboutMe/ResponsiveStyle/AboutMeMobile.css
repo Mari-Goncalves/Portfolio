@@ -1,0 +1,26 @@
+@media screen and (max-width:320px){
+
+    #about-me{
+        padding: 0;
+    }
+
+    #main-content-about-me{
+        flex-direction: column;
+    }
+
+    #avatar-container{
+        width: 100%;
+    }
+    #avatar{
+        width: 70%;
+    }
+
+    #container-about-me-text{
+        width: 100%;
+        font-size: 0.7em;
+    }
+
+    #about-me-title{
+        text-align: center;
+    }
+}
