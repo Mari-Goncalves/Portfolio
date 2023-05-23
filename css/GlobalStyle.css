@@ -46,14 +46,24 @@ input{
     color: #ffffff;
   }
 
+  @media screen and (max-width:1024px){
+    article > .title{
+        font-size: 2em;
+    }
+  }
+  
+  @media screen and (max-width:768px){
+    article > .title{
+        font-size: 1.5em;
+    }
+  }
+
   @media screen and (max-width:425px){
     article > .title{
         font-size: 1em;
     }
   }
 
-  @media screen and (max-width:768px){
-    article > .title{
-        font-size: 1.5em;
-    }
-  }
+  
+
+  
