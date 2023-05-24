@@ -1,0 +1,53 @@
+@media screen and (max-width:425px){
+    #main-content-footer{
+        color: #ffffff;
+        padding: 40px;
+    }
+
+    #container-message-submenu{
+        flex-direction: column;
+    }
+
+    #container-message-submenu > #leave-message-content{
+        width: 100%;
+    }
+
+    #container-message-submenu > #leave-message-content > #contact-title{
+        text-align: center;
+        font-size: 1em;
+    }
+    
+    #write-contact-message{
+        padding-top: 14px;
+    }
+
+    .text-field{
+        width: 100%;
+        height: 45px;
+    }
+
+    
+    #button-send-message{
+        width: 25%;
+    }
+    
+    .email-message-title, .text-field,  #button-send-message{
+        font-size: 0.7em;
+    }
+
+    /* #portifolio-submenu-footer{
+        background-color: red;
+    } */
+
+
+
+    #footer-container-social-media-icons{
+        display: none;
+    }
+
+    #signature{
+        font-size: 0.8em;
+        padding: 15px 0;
+    }
+
+}
