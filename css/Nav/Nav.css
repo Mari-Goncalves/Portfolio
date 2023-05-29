@@ -26,20 +26,20 @@
 }
 
 ul > .content-menu-item{
-    color: #F5F5F5;
+    color: var(--white);
 }
 
 .content-menu-item > .menu-item-link{
-    color: #F5F5F5;
+    color: var(--white);
     font-weight: 500;
 }
 
 .content-menu-item:hover > .menu-item-link{
-    color: #dedbdb;
-    border-bottom: 2px solid #F5F5F5;
+    color: var(--gray03);
+    border-bottom: 2px solid var(--gray03);
     padding-bottom: 5px;
 }
 
 #banner-header{
-    background-color: #43506C;
+    background-color: var(--blue);
 }
