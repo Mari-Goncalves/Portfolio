@@ -1,7 +1,7 @@
 .project-card{
     align-items: center;
-    background: #283247;
-    color: #ffffff;
+    background: var(--middle-blue);
+    color: var(--white);
     display: flex;
     flex-direction: column;
     gap: 20px;

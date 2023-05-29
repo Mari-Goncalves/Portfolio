@@ -23,7 +23,7 @@
     }
 
     #main-content-footer{
-        color: #ffffff;
+        color: var(--white);
         padding: 40px;
     }
 

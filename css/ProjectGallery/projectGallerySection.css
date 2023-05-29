@@ -1,11 +1,11 @@
 #project-gallery{
-    background: #efefef;
+    background: var(--gray01);
     padding: 20px;
 }
 
 #project-gallery-title{
-    background: #bcbcbc ;
-    color: #ffffff;
+    background: var(--gray05);
+    color: var(--white);
     padding: 10px;
     text-align: center;
 }

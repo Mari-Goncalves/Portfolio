@@ -1,5 +1,5 @@
 #banner-content-text{
-    color: #FFFFFF;
+    color: var(--white);
     width: 50%;
     height: 40%;
     display: flex;
