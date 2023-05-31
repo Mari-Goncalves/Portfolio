@@ -17,7 +17,7 @@
         display: none;
     }
 
-    #portifolio-submenu-footer > #content-list-menu{
+    #portifolio-submenu-footer > #content-list-menu-footer{
         display: flex;
         justify-content: space-between;
         width: 100%;
@@ -38,6 +38,13 @@
         font-size: 1.4em;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .menu-item-link{
+        font-size: 1em;
+    }
+}
+
 
 header > #portfolio-mobile-side-menu-header > .nav-container > #checkbox {
     position: absolute;
@@ -102,7 +109,7 @@ header > #portfolio-mobile-side-menu-header > .nav-container > #hamburguer-lines
     padding: 110px 35px 0; 
 }
 
-#main-content-menu-mobile > #content-list-menu {
+#main-content-menu-mobile > #content-list-menu-mobile {
     display: flex;
     flex-direction: column;
     gap: 30px;

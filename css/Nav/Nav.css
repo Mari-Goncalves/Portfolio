@@ -12,6 +12,7 @@
     flex-direction: column;
     font-size: 1.2em;
     line-height: 80px;
+    display: flex;
 }
 
 #portfolio-side-menu-header > #content-list-menu{
@@ -21,7 +22,7 @@
     padding: 15px;
 }
 
-#content-list-menu{
+.content-menu{
     list-style: none;
 }
 
