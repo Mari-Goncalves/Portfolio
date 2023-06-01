@@ -73,30 +73,19 @@ Componentization of css components according to each session.
 
 ## Design process
 
-Benchmark
+### Benchmark
 
 ![image](https://github.com/Mari-Goncalves/Portfolio/assets/120994185/dd79c0ca-8ec2-4698-903c-0d73518eae0d)
 
-Sketch
-
-Banner and about me section:
+### Sketch
 
 ![image](https://github.com/Mari-Goncalves/Portfolio/assets/120994185/248428e8-a042-48c5-ba76-1b144396bb4a)
-
-Project gallery:
-
 ![image](https://github.com/Mari-Goncalves/Portfolio/assets/120994185/dfec14dd-b9fa-4454-8c4e-7da27fd6c76b)
-
-Footer:
-
 ![image](https://github.com/Mari-Goncalves/Portfolio/assets/120994185/205acf39-2885-44bf-bb1d-3ad97929d3df)
 
-Mobile design:
+#### Design:
 
-![image](https://github.com/Mari-Goncalves/Portfolio/assets/120994185/81a2009d-a869-4ff8-a077-4a82442afadc)
-
-Web design:
-
+![image](https://github.com/Mari-Goncalves/Portfolio/assets/120994185/8bcb7fdb-3de6-4e73-8e36-de16b9dc5bba)
 ![image](https://github.com/Mari-Goncalves/Portfolio/assets/120994185/c020d0f9-5af3-4ab0-8c34-d5be39136235)
 
 
@@ -107,19 +96,35 @@ Web design:
 <br>
 
 ## About the process
-
-Main challenge -> working with versioning using terminal.
-
-How I deal -> I researched my doubts regarding the use of terminal commands.
-
-Main error -> not make components responsive during web authoring.
-
-How I deal -> I separated the styling from the components to make it easier to make them responsive.
-
-Lessons learnead:
-- Componentization
-- Versioning
-- Github features
+<table>
+  <tr>
+  <td align="center"><b>Main challenge</b></td>
+  <td align="center"><b>How I deal</b></td>
+  <tr/>
+  <td align="left">Working with versioning using terminal.</td>
+  <td align="left">I researched my doubts regarding the use of terminal commands.</td>
+ </tr>
+  <td align="center"><b>Main error</b></td>
+  <td align="center"><b>How I deal</b></td>
+  <tr/>
+  <td align="left">Don't make components responsive during web authoring.</td>
+  <td align="left">I separated the styling from the components to make it easier to make them responsive.</td>
+ </tr>
+ </tr>
+ </table>
+ 
+ <table>
+  <td align="center"><b>Lessons learnead</b></td>
+  <tr/>
+  <td align="left">
+  <ul>
+  <li>Componentization</li>
+  <li>Versioning</li>
+  <li>Github features</li>
+  </ul>
+  </td>
+ </tr>
+</table>
 
 <br>
 
