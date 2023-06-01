@@ -1,4 +1,4 @@
-# Mariana's projects portfolio
+<h1 align="center"> Mariana's projects portfolio </h1>
 
 <div align="center">
   <img width="742" alt="image" src="https://github.com/Mari-Goncalves/Portfolio/assets/120994185/bbf9d3db-e8d9-47a8-85f3-be272fc34ffe">
@@ -13,6 +13,7 @@
 
 
 Creation of a responsive portfolio using HTML and CSS.
+* *Project deploy* - https://mari-goncalves.github.io/Portfolio/ 
 
 ---
 
@@ -21,8 +22,18 @@ Creation of a responsive portfolio using HTML and CSS.
 ## Author
 
 **Mariana Gonçalves** 
-* *Project deploy* - https://mari-goncalves.github.io/Portfolio/ 
-* *My linkedin profile* - https://www.linkedin.com/in/marianasouzagon%C3%A7alves/
+
+* *Linkedin* - https://www.linkedin.com/in/marianasouzagon%C3%A7alves/
+* *Instagram* - https://instagram.com/code.coding?igshid=ZGUzMzM3NWJiOQ== 
+
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/Mari-Goncalves"><img src="https://github.com/Mari-Goncalves/Portfolio/assets/120994185/7a7a7da0-219a-40e8-9cc7-6e4ec557cf85" width="100px;" alt=""/>
+      <br /><sub><b>Mariana Gonçalves</b>
+      </sub></a><br/></td>
+  </tr>
+</table>
+
 
 <br>
 
