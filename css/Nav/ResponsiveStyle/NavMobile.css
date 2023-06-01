@@ -98,7 +98,7 @@ header > #portfolio-mobile-side-menu-header > .nav-container > #hamburguer-lines
     background: var(--blue);
     padding-top: 100px;
     margin-right: -100%;
-    transition: all ease .3s
+    transition: all ease .3s;
 }
 
 #checkbox:checked ~ #main-content-menu-mobile {
