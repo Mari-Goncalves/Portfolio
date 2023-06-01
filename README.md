@@ -48,63 +48,80 @@ This project was designed to demonstrate:
 
 ## Usage example
 
-Bring the best usages of your project.
+[web-portfolio-demo.webm](https://github.com/Mari-Goncalves/Portfolio/assets/120994185/48a39c36-a925-4076-9f0c-1465c0551684)
 
-_For more examples and usage, please refer to the [Wiki][wiki]._
+[mobile-portfolio-demo.webm](https://github.com/Mari-Goncalves/Portfolio/assets/120994185/faacc57d-92db-4004-a07c-f1b8a01718e9)
 
----
-
-## Installation
-
-Describe how to get your project running.
-
-MacOS & Linux:
-
-```sh
-npm install my-module --save
-```
-
-Windows:
-
-```sh
-edit autoexec.bat
-```
+<br>
 
 ---
 
-## Development setup
+<br>
 
-Describe how to install all development dependencies and consider do this for multiple platforms.  
+## Files structures
 
-```sh
-make install
-npm test
-```
+Componentization of css components according to each session.
 
-## Running the tests
+![image](https://github.com/Mari-Goncalves/Portfolio/assets/120994185/d5e39091-e3f1-43d0-a13c-4f08bbea9140)
 
-Remember this is a showcase, thus your potential employer might want to see an automated test-suite of some kind up running.
+
+<br>
 
 ---
 
-## Built With
+<br>
 
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli#download-and-install) - To deploy on Heroku
+## Design process
 
-## Release History
+Benchmark
 
-* 0.2.1
-    * CHANGE: Update docs (module code remains unchanged)
-* 0.2.0
-    * CHANGE: Refactoring - Remove `setAnyMethod()`
-    * ADD: Add `newSomething()`
-* 0.1.1
-    * FIX: Crash when calling `defaultXYZ()` (Thanks @ContributorName)
-* 0.1.0
-    * The first proper release
-* 0.0.1
-    * Initial work
+![image](https://github.com/Mari-Goncalves/Portfolio/assets/120994185/dd79c0ca-8ec2-4698-903c-0d73518eae0d)
+
+Sketch
+
+Banner and about me section:
+
+![image](https://github.com/Mari-Goncalves/Portfolio/assets/120994185/248428e8-a042-48c5-ba76-1b144396bb4a)
+
+Project gallery:
+
+![image](https://github.com/Mari-Goncalves/Portfolio/assets/120994185/dfec14dd-b9fa-4454-8c4e-7da27fd6c76b)
+
+Footer:
+
+![image](https://github.com/Mari-Goncalves/Portfolio/assets/120994185/205acf39-2885-44bf-bb1d-3ad97929d3df)
+
+Mobile design:
+
+![image](https://github.com/Mari-Goncalves/Portfolio/assets/120994185/81a2009d-a869-4ff8-a077-4a82442afadc)
+
+Web design:
+
+![image](https://github.com/Mari-Goncalves/Portfolio/assets/120994185/c020d0f9-5af3-4ab0-8c34-d5be39136235)
+
+
+<br>
+
+---
+
+<br>
+
+## About the process
+
+Main challenge -> working with versioning using terminal.
+
+How I deal -> I researched my doubts regarding the use of terminal commands.
+
+Main error -> not make components responsive during web authoring.
+
+How I deal -> I separated the styling from the components to make it easier to make them responsive.
+
+Lessons learnead:
+- Componentization
+- Versioning
+- Github features
+
+<br>
 
 ---
 
