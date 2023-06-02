@@ -138,33 +138,3 @@ Componentization of css components according to each session.
 </table>
 
 <br>
-
----
-
-## Contributing
-
-1. Fork it (<https://github.com/yourname/yourproject/fork>)
-2. Create your feature branch (`git checkout -b feature/fooBar`)
-3. Commit your changes (`git commit -am 'Add some fooBar'`)
-4. Push to the branch (`git push origin feature/fooBar`)
-5. Create a new Pull Request
-
-<!-- Markdown link & img dfn's -->
-
-[header-url]: github-template.png
-[header-link]: https://github.com/alexandrerosseto
-
-[repository-url]: https://github.com/alexandrerosseto/wbshopping
-
-[cloud-provider-url]: https://wbshopping.herokuapp.com
-
-[linkedin-url]: https://www.linkedin.com/in/alexandrerosseto
-
-[wiki]: https://github.com/yourname/yourproject/wiki
-
-[version-image]: https://img.shields.io/badge/Version-1.0.0-brightgreen?style=for-the-badge&logo=appveyor
-[version-url]: https://img.shields.io/badge/version-1.0.0-green
-[Frontend-image]: https://img.shields.io/badge/Frontend-Ionic-blue?style=for-the-badge
-[Frontend-url]: https://img.shields.io/badge/Frontend-Ionic-blue?style=for-the-badge
-[Backend-image]: https://img.shields.io/badge/Backend-Java%208-important?style=for-the-badge
-[Backend-url]: https://img.shields.io/badge/Backend-Java%208-important?style=for-the-badge
