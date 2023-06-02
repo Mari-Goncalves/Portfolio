@@ -29,7 +29,7 @@ Creation of a responsive portfolio using HTML and CSS.
 <table>
   <tr>
     <td align="center"><a href="https://github.com/Mari-Goncalves"><img src="https://github.com/Mari-Goncalves/Portfolio/assets/120994185/7a7a7da0-219a-40e8-9cc7-6e4ec557cf85" width="100px;" alt=""/>
-      <br /><sub><b>Mariana Gonçalves</b>
+      <br /><sub><b><a href="https://github.com/Mari-Goncalves">Mariana Gonçalves</a></b>
       </sub></a><br/></td>
   </tr>
 </table>
