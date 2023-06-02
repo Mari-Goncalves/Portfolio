@@ -1,4 +1,4 @@
-<h1 align="center"> Mariana's projects portfolio </h1>
+<h1 align="center"> Mariana's portfolio project </h1>
 
 <div align="center">
   <img width="742" alt="image" src="https://github.com/Mari-Goncalves/Portfolio/assets/120994185/bbf9d3db-e8d9-47a8-85f3-be272fc34ffe">
