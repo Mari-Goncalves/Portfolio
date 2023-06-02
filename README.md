@@ -90,15 +90,45 @@ Componentization of css components according to each session.
 
 ### Sketch
 
-![image](https://github.com/Mari-Goncalves/Portfolio/assets/120994185/248428e8-a042-48c5-ba76-1b144396bb4a)
-![image](https://github.com/Mari-Goncalves/Portfolio/assets/120994185/dfec14dd-b9fa-4454-8c4e-7da27fd6c76b)
-![image](https://github.com/Mari-Goncalves/Portfolio/assets/120994185/205acf39-2885-44bf-bb1d-3ad97929d3df)
+<table>
+  <tr>
+    
+   <td align="center">
+     <img width="600" alt="image" src="https://github.com/Mari-Goncalves/Portfolio/assets/120994185/248428e8-a042-48c5-ba76-1b144396bb4a">
+  <br /></a><br/></td>
+  
+   <td align="center">
+     <img width="600" alt="image" src="https://github.com/Mari-Goncalves/Portfolio/assets/120994185/dfec14dd-b9fa-4454-8c4e-7da27fd6c76b">
+  <br /></a><br/></td>
+  
+ </tr>
+ 
+ </table>
+ 
+ <table>
+  <tr>
 
-#### Design:
+  <td align="center">
+    <img width="600" alt="image" src="https://github.com/Mari-Goncalves/Portfolio/assets/120994185/205acf39-2885-44bf-bb1d-3ad97929d3df">
+  <br /></a><br/>
+  </td>
+  
+  <td align="center">
+    <img width="600" alt="image" src="https://github.com/Mari-Goncalves/Portfolio/assets/120994185/1fdb9381-da04-4774-b7b3-b6d1b5429f4c">
+  <br /></a><br/>
+  </td>
+  
+ </tr>
+ 
+ </table>
+   
 
-![image](https://github.com/Mari-Goncalves/Portfolio/assets/120994185/8bcb7fdb-3de6-4e73-8e36-de16b9dc5bba)
-![image](https://github.com/Mari-Goncalves/Portfolio/assets/120994185/c020d0f9-5af3-4ab0-8c34-d5be39136235)
+### Design
 
+<table>
+  <td align="center"><img src="https://github.com/Mari-Goncalves/Portfolio/assets/120994185/8bcb7fdb-3de6-4e73-8e36-de16b9dc5bba" width="500px"/></td>
+  <td align="center"><img src="https://github.com/Mari-Goncalves/Portfolio/assets/120994185/c020d0f9-5af3-4ab0-8c34-d5be39136235" width="500px"/></td>
+</table>
 
 <br>
 
