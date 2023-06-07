@@ -4,7 +4,7 @@ function sendMessage() {
     let email = document.querySelector('#write-email-contact').value
     let message = document.querySelector('#write-contact-message').value
 
-    confirm(
+    alert(
         `${email}` + 
         "\n" + 
         `You wrote this: ${message}.` + 
