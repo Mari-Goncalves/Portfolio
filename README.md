@@ -1,4 +1,4 @@
-<h1 align="center"> Mariana's projects portfolio </h1>
+<h1 align="center"> Mariana's portfolio project </h1>
 
 <div align="center">
   <img width="742" alt="image" src="https://github.com/Mari-Goncalves/Portfolio/assets/120994185/bbf9d3db-e8d9-47a8-85f3-be272fc34ffe">
@@ -29,7 +29,7 @@ Creation of a responsive portfolio using HTML and CSS.
 <table>
   <tr>
     <td align="center"><a href="https://github.com/Mari-Goncalves"><img src="https://github.com/Mari-Goncalves/Portfolio/assets/120994185/7a7a7da0-219a-40e8-9cc7-6e4ec557cf85" width="100px;" alt=""/>
-      <br /><sub><b>Mariana Gonçalves</b>
+      <br /><sub><b><a href="https://github.com/Mari-Goncalves">Mariana Gonçalves</a></b>
       </sub></a><br/></td>
   </tr>
 </table>
@@ -90,15 +90,45 @@ Componentization of css components according to each session.
 
 ### Sketch
 
-![image](https://github.com/Mari-Goncalves/Portfolio/assets/120994185/248428e8-a042-48c5-ba76-1b144396bb4a)
-![image](https://github.com/Mari-Goncalves/Portfolio/assets/120994185/dfec14dd-b9fa-4454-8c4e-7da27fd6c76b)
-![image](https://github.com/Mari-Goncalves/Portfolio/assets/120994185/205acf39-2885-44bf-bb1d-3ad97929d3df)
+<table>
+  <tr>
+    
+   <td align="center">
+     <img width="600" alt="image" src="https://github.com/Mari-Goncalves/Portfolio/assets/120994185/248428e8-a042-48c5-ba76-1b144396bb4a">
+  <br /></a><br/></td>
+  
+   <td align="center">
+     <img width="600" alt="image" src="https://github.com/Mari-Goncalves/Portfolio/assets/120994185/dfec14dd-b9fa-4454-8c4e-7da27fd6c76b">
+  <br /></a><br/></td>
+  
+ </tr>
+ 
+ </table>
+ 
+ <table>
+  <tr>
 
-#### Design:
+  <td align="center">
+    <img width="600" alt="image" src="https://github.com/Mari-Goncalves/Portfolio/assets/120994185/205acf39-2885-44bf-bb1d-3ad97929d3df">
+  <br /></a><br/>
+  </td>
+  
+  <td align="center">
+    <img width="600" alt="image" src="https://github.com/Mari-Goncalves/Portfolio/assets/120994185/1fdb9381-da04-4774-b7b3-b6d1b5429f4c">
+  <br /></a><br/>
+  </td>
+  
+ </tr>
+ 
+ </table>
+   
 
-![image](https://github.com/Mari-Goncalves/Portfolio/assets/120994185/8bcb7fdb-3de6-4e73-8e36-de16b9dc5bba)
-![image](https://github.com/Mari-Goncalves/Portfolio/assets/120994185/c020d0f9-5af3-4ab0-8c34-d5be39136235)
+### Design
 
+<table>
+  <td align="center"><img src="https://github.com/Mari-Goncalves/Portfolio/assets/120994185/8bcb7fdb-3de6-4e73-8e36-de16b9dc5bba" width="500px"/></td>
+  <td align="center"><img src="https://github.com/Mari-Goncalves/Portfolio/assets/120994185/c020d0f9-5af3-4ab0-8c34-d5be39136235" width="500px"/></td>
+</table>
 
 <br>
 
@@ -138,33 +168,3 @@ Componentization of css components according to each session.
 </table>
 
 <br>
-
----
-
-## Contributing
-
-1. Fork it (<https://github.com/yourname/yourproject/fork>)
-2. Create your feature branch (`git checkout -b feature/fooBar`)
-3. Commit your changes (`git commit -am 'Add some fooBar'`)
-4. Push to the branch (`git push origin feature/fooBar`)
-5. Create a new Pull Request
-
-<!-- Markdown link & img dfn's -->
-
-[header-url]: github-template.png
-[header-link]: https://github.com/alexandrerosseto
-
-[repository-url]: https://github.com/alexandrerosseto/wbshopping
-
-[cloud-provider-url]: https://wbshopping.herokuapp.com
-
-[linkedin-url]: https://www.linkedin.com/in/alexandrerosseto
-
-[wiki]: https://github.com/yourname/yourproject/wiki
-
-[version-image]: https://img.shields.io/badge/Version-1.0.0-brightgreen?style=for-the-badge&logo=appveyor
-[version-url]: https://img.shields.io/badge/version-1.0.0-green
-[Frontend-image]: https://img.shields.io/badge/Frontend-Ionic-blue?style=for-the-badge
-[Frontend-url]: https://img.shields.io/badge/Frontend-Ionic-blue?style=for-the-badge
-[Backend-image]: https://img.shields.io/badge/Backend-Java%208-important?style=for-the-badge
-[Backend-url]: https://img.shields.io/badge/Backend-Java%208-important?style=for-the-badge
