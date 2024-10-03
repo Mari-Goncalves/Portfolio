@@ -13,7 +13,6 @@
 
 
 Creation of a responsive portfolio using HTML and CSS.
-* *Project deploy* - https://mari-goncalves.github.io/Portfolio/ 
 
 ---
 
