@@ -22,7 +22,7 @@ Creation of a responsive portfolio using HTML and CSS.
 
 **Mariana Gonçalves** 
 
-* *Linkedin* - https://www.linkedin.com/in/marianasouzagon%C3%A7alves/
+* *Linkedin* - https://www.linkedin.com/in/marianasouzagoncalves/
 
 <table>
   <tr>
